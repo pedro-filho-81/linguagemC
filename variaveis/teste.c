@@ -3,7 +3,7 @@
 #include <stdlib.h> // para instrução system
 #include <locale.h> // para configurar a região
 
-int main()
+main()
 { // inicio do bloco
    setlocale(LC_ALL, "portuguese"); // configura para português do Brasil
    printf("Variáveis:\n"); // exibe cabeçalho
@@ -11,6 +11,7 @@ int main()
    printf("x = %d%n", x); // imprime o valor de x
    x = 5; // define o valor de x como sendo 5
    printf("\nx = %d%n", x); // imprime o valor de x
+   printf("\n"); // pula linha
    system("pause"); // pausa o programa
    return 0; // retorna zero, programa terminado com sucesso.
 } // end main
