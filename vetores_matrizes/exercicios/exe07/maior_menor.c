@@ -15,6 +15,7 @@ int main()
     int total = 0; // soma os valores do vetor
     int maior = 0; // maior valor do vetor
     int menor = 0; // menor valor
+    
     // vetor
     int vetor[INDICE]; // vetor para x elementos
     
