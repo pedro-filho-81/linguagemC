@@ -9,12 +9,15 @@ int main()
     // para caractere usa-se aspas simples
     // letras, simbolos, números dentro de aspas simples
     // são caracteres
-    printf("\nO tipo ( caractere ) deve estar entre aspas simples,\ncomo 'A' ou 'c', e usa-se o especificador de \nformato ( %%c ) para imprimi-lo:");
+    printf("\nO tipo caractere CHAR deve estar entre aspas simples,\ncomo 'A' ou 'c', e usa-se o especificador de \nformato ( %%c ) para imprimi-lo:\n");
+    
     char caractere = 'a'; // ou 'A'
     printf("\nchar caractere = 'a';");
-    printf("\nImprime a letra = %c", caractere);
+    printf("\nUsando %%c Imprime a letra = %c", caractere);
+    printf("\nUsando %%d Imprime o numero = %d", caractere);
+    
     char numero = 65; // caractere
     printf("\n\nchar numero = 65;");
-    printf("\nImprime o numero  = %c", numero);
-    printf("\nNumero 65 = %d\n", numero);
-}
+    printf("\nUsando %%c Imprime a letra = %c", numero);
+    printf("\nUsando %%d imprime o numero = %d\n", numero);
+} // end main
