@@ -12,9 +12,8 @@ int main(int argc, char const *argv[])
     char olamundo[] = "Hello world!"; // cria um array char que recebe a string
     printf("\nDeclara, cria e inicializa uma string");
     printf("\nchar olamundo[] = \"Hello world!\";");
-    // Para imprimir um string, você pode usar a função printf() junto com 
-    // o especificador (%s) de formato para dizer a C que agora estamos 
-    // trabalhando com strings:
+    // Para imprimir uma string, você pode usar a função printf() junto com 
+    // o especificador de formato (%s) para dizer a C que agora trabalhamos com strings:
     printf("\nImprime uma string.");
     printf("\nprintf(\"%%s%%n\",olamundo);\n");
     // imprime a string
